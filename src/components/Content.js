@@ -1,9 +1,10 @@
 import "../styles/Content.css";
 
-export default function Content() {
+export default function Content({ sectionRendered }) {
   return (
     <div className="content-container">
-      <h2>Content Component</h2>
+      <h2 className="content-title">Content Component</h2>
+      {sectionRendered}
     </div>
   );
 }

@@ -4,4 +4,9 @@
 
 .navbar li {
   padding: 1.5rem;
+  cursor: pointer;
+}
+
+.navbar li:hover {
+  color: white;
 }
