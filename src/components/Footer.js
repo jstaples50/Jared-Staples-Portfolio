@@ -1,8 +1,8 @@
-import React from "react";
+import "../styles/Footer.css";
 
 export default function Footer({ items }) {
   return (
-    <footer>
+    <footer className="footer">
       <ul>
         {items.map((item) => {
           return <li>{item.title}</li>;

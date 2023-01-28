@@ -1,4 +1,5 @@
-import React from "react";
+import "../styles/Navigation.css";
+
 import Header from "./Header";
 import NavBar from "./NavBar";
 

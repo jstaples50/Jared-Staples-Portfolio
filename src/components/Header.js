@@ -1,3 +1,3 @@
 export default function Header() {
-  return <h1>Jared Staples</h1>;
+  return <h1 className="header">Jared Staples</h1>;
 }

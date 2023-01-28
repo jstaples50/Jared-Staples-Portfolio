@@ -1,8 +1,8 @@
-import React from "react";
+import "../styles/NavBar.css";
 
 export default function NavBar({ items }) {
   return (
-    <nav>
+    <nav className="navbar">
       <ul>
         {items.map((item) => {
           return <li key={item.title}>{item.title}</li>;
