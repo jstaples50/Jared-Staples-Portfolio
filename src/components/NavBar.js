@@ -1,17 +1,10 @@
 import React from "react";
 
-const navbarItems = [
-  { title: "About Me" },
-  { title: "Portfolio" },
-  { title: "Contact" },
-  { title: "Resume" },
-];
-
-export default function NavBar() {
+export default function NavBar({ items }) {
   return (
     <nav>
       <ul>
-        {navbarItems.map((item) => {
+        {items.map((item) => {
           return <li key={item.title}>{item.title}</li>;
         })}
       </ul>

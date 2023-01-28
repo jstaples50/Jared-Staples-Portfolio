@@ -2,16 +2,11 @@ import React from "react";
 import Header from "./Header";
 import NavBar from "./NavBar";
 
-// const styles = {
-//   display: "flex",
-//   justifyContent: "space-between",
-// };
-
-export default function Navigation() {
+export default function Navigation({ items }) {
   return (
     <div className="navigation">
       <Header />
-      <NavBar />
+      <NavBar items={items} />
     </div>
   );
 }
