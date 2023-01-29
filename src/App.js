@@ -37,7 +37,10 @@ function App() {
         handleSectionRendered={handleSectionRendered}
       />
       <Content sectionRendered={sectionRendered} />
-      <Footer items={navbarItems} />
+      <Footer
+        items={navbarItems}
+        handleSectionRendered={handleSectionRendered}
+      />
     </div>
   );
 }

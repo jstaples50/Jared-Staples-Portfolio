@@ -6,7 +6,7 @@ import NavBar from "./NavBar";
 export default function Navigation({ items, handleSectionRendered }) {
   return (
     <div className="navigation">
-      <Header />
+      <Header items={items} handleSectionRendered={handleSectionRendered} />
       <NavBar items={items} handleSectionRendered={handleSectionRendered} />
     </div>
   );

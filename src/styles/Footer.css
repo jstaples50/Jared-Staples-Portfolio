@@ -7,13 +7,34 @@
 
 .footer ul {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer li {
-  padding: 1.5rem;
+  padding: 1.5rem 2rem;
   cursor: pointer;
 }
 
 .footer li:hover {
   color: #90c2e7;
+}
+
+.footer-nav {
+  display: none;
+}
+
+@media screen and (min-width: 600px) {
+  .footer ul {
+    justify-content: flex-start;
+  }
+
+  .footer-nav {
+    display: flex;
+    padding: 1.5rem;
+  }
+
+  .footer li {
+    padding: 1.5;
+  }
 }

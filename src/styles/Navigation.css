@@ -3,10 +3,33 @@
   height: 10vh;
   background: #00a9a5;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
 }
 
 .header {
   font-size: 35px;
   padding: 1.25rem;
+  cursor: pointer;
+}
+
+.header:hover {
+  font-style: italic;
+  color: white;
+}
+
+.FaBars:hover {
+  color: white;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 600px) {
+  .navigation {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .FaBars {
+    display: none;
+  }
 }
