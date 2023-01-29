@@ -21,7 +21,7 @@ const style = {
 };
 
 function App() {
-  const [sectionRendered, setSectionRendered] = useState();
+  const [sectionRendered, setSectionRendered] = useState(<AboutMe />);
 
   const handleSectionRendered = (section) => {
     const navObject = navbarItems.find((object) => {

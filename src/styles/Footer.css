@@ -11,4 +11,9 @@
 
 .footer li {
   padding: 1.5rem;
+  cursor: pointer;
+}
+
+.footer li:hover {
+  color: #90c2e7;
 }
