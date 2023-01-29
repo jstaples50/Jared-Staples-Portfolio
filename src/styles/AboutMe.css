@@ -1,0 +1,13 @@
+section {
+  letter-spacing: 2px;
+  line-height: 1.2;
+}
+
+p {
+  text-align: left;
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 25px;
+}

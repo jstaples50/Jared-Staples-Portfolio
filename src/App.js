@@ -30,13 +30,30 @@ function App() {
     setSectionRendered(navObject.section);
   };
 
+  const [dropdownVisibility, setDropdownVisibility] = useState("hidden");
+
+  const handleDropdown = () => {
+    dropdownVisibility === "hidden"
+      ? setDropdownVisibility("visible")
+      : setDropdownVisibility("hidden");
+  };
+
+  const handleClearDropdown = () => {
+    setDropdownVisibility("hidden");
+  };
+
   return (
     <div className="App" style={style}>
       <Navigation
         items={navbarItems}
         handleSectionRendered={handleSectionRendered}
+        dropdownVisibility={dropdownVisibility}
+        handleDropdown={handleDropdown}
       />
-      <Content sectionRendered={sectionRendered} />
+      <Content
+        sectionRendered={sectionRendered}
+        handleClearDropdown={handleClearDropdown}
+      />
       <Footer
         items={navbarItems}
         handleSectionRendered={handleSectionRendered}
