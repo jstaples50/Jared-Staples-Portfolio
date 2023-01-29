@@ -1,5 +1,4 @@
 import { FaBars } from "react-icons/fa";
-import { useState, useEffect } from "react";
 
 const hamburgerStyle = {
   position: "absolute",
@@ -10,15 +9,12 @@ const hamburgerStyle = {
   alignItems: "center",
 };
 
-export default function Hamburger({ items, handleSectionRendered }) {
-  const [dropdownVisibility, setDropdownVisibility] = useState("hidden");
-
-  const handleDropdown = () => {
-    dropdownVisibility === "hidden"
-      ? setDropdownVisibility("visible")
-      : setDropdownVisibility("hidden");
-  };
-
+export default function Hamburger({
+  items,
+  handleSectionRendered,
+  dropdownVisibility,
+  handleDropdown,
+}) {
   return (
     <nav className="hamburger" style={hamburgerStyle}>
       <FaBars className="FaBars" onClick={handleDropdown} />
