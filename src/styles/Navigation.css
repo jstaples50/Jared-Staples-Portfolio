@@ -18,8 +18,29 @@
   color: white;
 }
 
+.FaBars {
+  margin-bottom: 1em;
+}
+
 .FaBars:hover {
   color: white;
+  cursor: pointer;
+}
+
+.dropdown {
+  padding: 1em;
+  border: 1px solid white;
+  border-radius: 10%;
+  overflow: auto;
+  background-color: #00a9a5;
+}
+
+.dropdown li {
+  margin-bottom: 0.5em;
+}
+
+.dropdown li:hover {
+  color: #092327;
   cursor: pointer;
 }
 
