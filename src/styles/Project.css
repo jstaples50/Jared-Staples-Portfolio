@@ -71,6 +71,15 @@ img {
   /* background: #f6cbb7; */
 }
 
+.btn-container a {
+  text-decoration: none;
+  color: black;
+}
+
+.btn-container a:hover {
+  color: white;
+}
+
 .btn {
   padding: 0.25rem;
   width: 8rem;
