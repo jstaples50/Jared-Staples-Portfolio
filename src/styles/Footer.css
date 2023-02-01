@@ -20,6 +20,10 @@
   color: #90c2e7;
 }
 
+.footer a {
+  color: white;
+}
+
 .footer-nav {
   display: none;
 }

@@ -8,6 +8,7 @@ export default function Navigation({
   handleSectionRendered,
   dropdownVisibility,
   handleDropdown,
+  setSectionRendered,
 }) {
   return (
     <div className="navigation">
@@ -16,6 +17,7 @@ export default function Navigation({
         handleSectionRendered={handleSectionRendered}
         dropdownVisibility={dropdownVisibility}
         handleDropdown={handleDropdown}
+        setSectionRendered={setSectionRendered}
       />
       <NavBar items={items} handleSectionRendered={handleSectionRendered} />
     </div>

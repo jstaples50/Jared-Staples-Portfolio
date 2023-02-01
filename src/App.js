@@ -49,6 +49,7 @@ function App() {
         handleSectionRendered={handleSectionRendered}
         dropdownVisibility={dropdownVisibility}
         handleDropdown={handleDropdown}
+        setSectionRendered={setSectionRendered}
       />
       <Content
         sectionRendered={sectionRendered}
