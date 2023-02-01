@@ -7,14 +7,13 @@ export default function AboutMe() {
         About <span className="me">Me!</span>
       </h2>
       <p>
-        Dolor nulla eu consectetur irure velit. Nulla fugiat non et Lorem culpa
-        tempor aliqua eu in ipsum. Est voluptate Lorem officia ea est nisi non
-        in ad deserunt ipsum laborum excepteur. Incididunt laboris quis
-        consectetur nulla culpa pariatur incididunt aliqua culpa laborum
-        occaecat reprehenderit. Tempor adipisicing adipisicing dolor laboris
-        minim sint adipisicing esse anim. Ad sunt in enim officia aliquip
-        laborum dolor ea aute elit. Aliquip sunt id minim adipisicing voluptate
-        officia ex laboris reprehenderit dolor reprehenderit.
+        My name is Jared and I am Full Stack Developer! Original background as a
+        music educator, I found new passion and creativity in programming. As a
+        former director, I bring leadership and unique problem solving to any
+        professional situation. I am a lifelong learner who believes learning
+        something new everyday is not just a platitude, but a firm mantra
+        everyone should follow! Let me bring energy and new insights to your
+        project or company!
       </p>
     </section>
   );
