@@ -35,7 +35,7 @@ const project2 = {
 export default function Portfolio() {
   return (
     <section className="portfolio">
-      <h2>Portfolio Component</h2>
+      <h2>Portfolio</h2>
       <Project projectObj={project1} />
       <Project projectObj={project2} />
     </section>

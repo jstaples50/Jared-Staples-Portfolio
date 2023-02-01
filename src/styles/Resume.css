@@ -1,0 +1,47 @@
+.resume {
+  width: 70vw;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.resume h2 {
+  font-weight: 500px;
+  font-size: 24px;
+  text-decoration: underline;
+  color: white;
+  margin-bottom: 2rem;
+}
+
+.resume ul {
+  list-style: "- ";
+  margin-left: 5rem;
+}
+
+.resume li {
+  margin: 0.5rem;
+}
+
+.resume a {
+  text-decoration: none;
+  color: black;
+  margin-top: 8rem;
+  margin-left: 2rem;
+  font-size: 30px;
+}
+
+.resume a:hover {
+  color: #00a9a5;
+}
+
+@media screen and (max-width: 600px) {
+  .resume {
+    text-align: center;
+  }
+
+  .resume ul {
+    margin-left: 0;
+  }
+}
