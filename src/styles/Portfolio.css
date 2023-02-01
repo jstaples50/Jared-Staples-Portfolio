@@ -7,6 +7,12 @@
   overflow-x: hidden;
 }
 
+.portfolio h2 {
+  margin-bottom: 20px;
+  font-size: 25px;
+  color: white;
+}
+
 /* .portfolio::-webkit-scrollbar {
   display: none;
 }
