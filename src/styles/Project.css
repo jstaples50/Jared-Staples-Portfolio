@@ -1,0 +1,146 @@
+/* .project-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: solid white 2px;
+  border-radius: 15%;
+}
+
+.image-container {
+  width: 25vh;
+  height: 25vh;
+  margin: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.project-container p {
+  margin: 18px 100px;
+} */
+
+.project-container {
+  width: 40vw;
+  min-width: 38rem;
+  height: 30vh;
+  margin: 2.5rem;
+  display: flex;
+  justify-content: space-between;
+  /* border: solid black 1px; */
+  border-radius: 12px;
+  font-family: "Montserrat", sans-serif;
+  /* filter: drop-shadow(2px 2px 2px rgb(64, 63, 63)); */
+  /* background: #d67e43; */
+}
+
+.left-column {
+  width: 160%;
+  /* background: #9c2d41; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.image-container {
+  width: 90%;
+  height: 60%;
+  /* border: solid black 1px; */
+  border-radius: 12px;
+  background: #900020;
+  overflow: hidden;
+  filter: drop-shadow(2px 2px 2px rgb(64, 63, 63));
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+}
+
+.btn-container {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  /* background: #f6cbb7; */
+}
+
+.btn-container a {
+  text-decoration: none;
+  color: black;
+}
+
+.btn-container a:hover {
+  color: white;
+}
+
+.btn {
+  padding: 0.25rem;
+  width: 8rem;
+  /* font-family: "Karla", sans-serif; */
+  font-weight: 400;
+  border-radius: 4px;
+  border: solid #d4b2b2 1px;
+  filter: drop-shadow(2px 2px 2px rgb(64, 63, 63));
+  background: #ffd755;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.right-column {
+  width: 100%;
+  /* background: #faf7f4; */
+  text-align: left;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.right-column h2 {
+  margin-top: 42px;
+  margin-bottom: 15px;
+  margin-left: 3px;
+  margin-right: 5px;
+  font-weight: 500;
+  font-size: 24px;
+  color: white;
+  /* border: solid blue 2px; */
+}
+
+.descr-container {
+  width: 70%;
+  margin-left: 3px;
+  /* background: #900020; */
+  text-align: left;
+  /* align-self: center; */
+  font-size: small;
+}
+
+@media screen and (max-width: 500px) {
+  .project-container {
+    flex-direction: column;
+    width: 80vw;
+    height: auto;
+    min-width: 0;
+  }
+
+  .left-column {
+    width: 100%;
+  }
+
+  .right-column {
+    align-items: center;
+  }
+
+  .descr-container {
+    text-align: center;
+  }
+}

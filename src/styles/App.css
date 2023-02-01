@@ -107,6 +107,8 @@ section {
 }
 body {
   line-height: 1;
+  overflow-x: hidden;
+  font-family: "Montserrat", sans-serif;
 }
 ol,
 ul {

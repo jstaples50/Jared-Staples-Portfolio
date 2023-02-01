@@ -1,13 +1,42 @@
-section {
+.about-me {
   letter-spacing: 2px;
   line-height: 1.2;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  overflow-x: hidden;
 }
 
-p {
+.about-me p {
   text-align: left;
 }
 
-h2 {
+.about-me h2 {
   margin-bottom: 20px;
   font-size: 25px;
+  color: white;
+}
+
+.me {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 30px;
+  color: #b55fb1;
+}
+
+.about-me::-webkit-scrollbar {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .about-me {
+    margin-left: 5vw;
+    margin-right: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .about-me p {
+    text-align: center;
+  }
 }

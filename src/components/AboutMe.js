@@ -3,7 +3,9 @@ import "../styles/AboutMe.css";
 export default function AboutMe() {
   return (
     <section className="about-me">
-      <h2>About Me Component</h2>
+      <h2>
+        About <span className="me">Me!</span>
+      </h2>
       <p>
         Dolor nulla eu consectetur irure velit. Nulla fugiat non et Lorem culpa
         tempor aliqua eu in ipsum. Est voluptate Lorem officia ea est nisi non
