@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/jared-staples-portfolio/static/css/main.5d9575f2.css",
+    "main.js": "/jared-staples-portfolio/static/js/main.b89f31f2.js",
+    "static/media/social-media-backend.png": "/jared-staples-portfolio/static/media/social-media-backend.1a078778a47ba94ddb0e.png",
+    "static/media/team-generator.png": "/jared-staples-portfolio/static/media/team-generator.8a485c3005d4a4e36d68.png",
+    "static/media/task-management.png": "/jared-staples-portfolio/static/media/task-management.a257338a1ce1e53d862e.png",
+    "static/media/Jared_Staples_Resume.pdf": "/jared-staples-portfolio/static/media/Jared_Staples_Resume.72a7f1708dc83bd47ea8.pdf",
+    "static/media/moodist-1.png": "/jared-staples-portfolio/static/media/moodist-1.ac9db1ffe1f7343dd6c0.png",
+    "index.html": "/jared-staples-portfolio/index.html",
+    "main.5d9575f2.css.map": "/jared-staples-portfolio/static/css/main.5d9575f2.css.map",
+    "main.b89f31f2.js.map": "/jared-staples-portfolio/static/js/main.b89f31f2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5d9575f2.css",
+    "static/js/main.b89f31f2.js"
+  ]
+}
