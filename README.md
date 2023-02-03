@@ -5,6 +5,8 @@
 ![portfolio](./src/assets/jared-portfolio.png)
 This site is a portfolio website to showcase my work as a web developer. It also serves as an example of my ability to work with React.
 
+[Deployed Website](https://jstaples50.github.io/jared-staples-portfolio/)
+
 ## Table of Contents
 
 - [Installation](#installation)
