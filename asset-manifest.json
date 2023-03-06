@@ -1,7 +1,8 @@
 {
   "files": {
     "main.css": "/jared-staples-portfolio/static/css/main.5d9575f2.css",
-    "main.js": "/jared-staples-portfolio/static/js/main.6351573a.js",
+    "main.js": "/jared-staples-portfolio/static/js/main.ca72bb31.js",
+    "static/media/makers-market.png": "/jared-staples-portfolio/static/media/makers-market.e6c79745ca8cfe4ae6ca.png",
     "static/media/social-media-backend.png": "/jared-staples-portfolio/static/media/social-media-backend.1a078778a47ba94ddb0e.png",
     "static/media/team-generator.png": "/jared-staples-portfolio/static/media/team-generator.8a485c3005d4a4e36d68.png",
     "static/media/task-management.png": "/jared-staples-portfolio/static/media/task-management.a257338a1ce1e53d862e.png",
@@ -9,10 +10,10 @@
     "static/media/moodist-1.png": "/jared-staples-portfolio/static/media/moodist-1.ac9db1ffe1f7343dd6c0.png",
     "index.html": "/jared-staples-portfolio/index.html",
     "main.5d9575f2.css.map": "/jared-staples-portfolio/static/css/main.5d9575f2.css.map",
-    "main.6351573a.js.map": "/jared-staples-portfolio/static/js/main.6351573a.js.map"
+    "main.ca72bb31.js.map": "/jared-staples-portfolio/static/js/main.ca72bb31.js.map"
   },
   "entrypoints": [
     "static/css/main.5d9575f2.css",
-    "static/js/main.6351573a.js"
+    "static/js/main.ca72bb31.js"
   ]
 }
