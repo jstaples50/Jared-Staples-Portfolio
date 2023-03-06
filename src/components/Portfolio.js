@@ -3,6 +3,7 @@ import taskPic from "../assets/task-management.png";
 import socialMediaPic from "../assets/social-media-backend.png";
 import moodistPic from "../assets/moodist-1.png";
 import teamGeneratorPic from "../assets/team-generator.png";
+import makersMarketPic from "../assets/makers-market.png";
 import "../styles/Portfolio.css";
 
 const projectObjectTemplate = {
@@ -54,10 +55,21 @@ const project4 = {
     "Node.js app that creates serves up a static html file based on user input; Utilizes the CLI node package 'Inquirer'",
 };
 
+const project5 = {
+  name: "Makers Market",
+  img: makersMarketPic,
+  primaryColor: "#C6FAD7",
+  githubUrl: "https://github.com/cmurphgarv/Makers-Market",
+  deployedSiteUrl: "https://makers-market.herokuapp.com/",
+  shortDescription:
+    "Full Stack application utilizing the MERN stack that mocks a E-commerce site for independent artists to sell their work",
+};
+
 export default function Portfolio() {
   return (
     <section className="portfolio">
       <h2>Portfolio</h2>
+      <Project projectObj={project5} />
       <Project projectObj={project1} />
       <Project projectObj={project2} />
       <Project projectObj={project3} />

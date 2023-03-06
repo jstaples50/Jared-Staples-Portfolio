@@ -1,4 +1,4 @@
-import resume from "../assets/file/Jared_Staples_Resume.pdf";
+import resume from "../assets/file/Jared_Staples_Resume_Tech.pdf";
 import "../styles/Resume.css";
 
 export default function Resume() {
